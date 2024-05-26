@@ -1,0 +1,11 @@
+document.getElementById('load-info').addEventListener('click', function() {
+    const infoContent = document.getElementById('info-content');
+    infoContent.innerHTML = `
+        <p>Cosmetologists can work in a variety of settings, including salons, spas, and freelance. They often continue their education to stay up-to-date with the latest beauty techniques and trends.</p>
+        <p>Education and licensing requirements vary by region, but typically include completing a state-approved cosmetology program and passing a licensing exam.</p>
+    `;
+});
+
+document.getElementById('next-page').addEventListener('click', function() {
+    window.location.href = 'nextpage.html'; // Change to the actual next page URL
+});
